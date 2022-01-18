@@ -23,11 +23,11 @@ cd dns
 
 下载优选ip文件
 
-wget https://raw.githubusercontent.com/scnjwq/cf-ly/main/cf-openwrt.sh
+wget https://github.com/scnjwq/openwrt-cf-ip-/blob/main/cf-openwrt.sh
 
 下载杀进程文件
 
-wget https://raw.githubusercontent.com/scnjwq/cf-ly/main/kill-cf-openwrt.sh
+wget https://github.com/scnjwq/openwrt-cf-ip-/blob/main/kill-cf-openwrt.sh
 
 显示当前目录的内容
 
@@ -44,9 +44,7 @@ i
 退出编辑并保存
 
 :wq
-修改cf-openwrt.sh中的两处地方，一处是带宽选择（默认50，可根据自己网络修改数值大小），一处是微信推送token（点击下面网址进入微信扫码、一对一推送、获取token复制替换最底行代码“微信推送key"保存完成。
 
-pushplus API接口申请地址：https://pushplus.hxtrip.com 微信扫码登录获取token
 
 添加计划任务
 
